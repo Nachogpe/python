@@ -1,0 +1,44 @@
+#1
+
+name=str(input('Enter your name'))
+print('hello', name)
+#2
+
+surname=str(input('Enter your surname'))
+print('hello', name, surname)
+#3
+
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+print(a+b)
+#4
+
+d=int(input('enter a number'))
+e=int(input('enter a number'))
+f=int(input('enter a number'))
+print((d+e+f)*(a+b))
+ 
+# 5
+start = int(input("How many pizza slices did you start with? "))
+eaten = int(input("How many slices have you eaten? "))
+print("Slices left:", start - eaten)
+ 
+# 6
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+print("Hello", name + ", next year you will be", age + 1, "years old.")
+ 
+# 7
+bill = float(input("Enter total bill: "))
+diners = int(input("Enter number of diners: "))
+print("Each person must pay:", bill / diners)
+ 
+# 8
+days = int(input("Enter number of days: "))
+print("Hours:", days * 24)
+print("Minutes:", days * 24 * 60)
+print("Seconds:", days * 24 * 60 * 60)
+ 
+# 9
+kg = float(input("Enter weight in kilograms: "))
+print("There are", kg * 2.204, "pounds in", kg, "kilograms.")
